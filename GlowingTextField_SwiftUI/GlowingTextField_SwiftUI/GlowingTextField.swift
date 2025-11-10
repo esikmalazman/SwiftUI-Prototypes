@@ -26,7 +26,7 @@ struct GlowingTextField: View {
         RoundedRectangle(cornerRadius: 16, style: .continuous)
           .fill(
             AngularGradient(
-              colors: [.redFlare, .orangeFlare, .redFlare],
+              colors: [Color(hex: "81E180"), Color(hex: "45B87C"), Color(hex: "81E180")],
               center: .center,
               angle: .degrees(isAnimating ? 360 : 0)
             )
@@ -66,7 +66,7 @@ struct GlowingTextField: View {
           } label: {
           
             Image(systemName: isSendButtonEnable ? "arrow.up.circle.fill" : "arrow.up" )
-              .foregroundStyle(isSendButtonEnable ? Color.redFlare : Color.secondary.opacity(0.5))
+              .foregroundStyle(isSendButtonEnable ? Color(hex: "45B87C") : Color.secondary.opacity(0.5))
   
       
           }
@@ -81,7 +81,7 @@ struct GlowingTextField: View {
           // Border
           RoundedRectangle(cornerRadius: 16, style: .continuous)
             .stroke(lineWidth: 1)
-            .foregroundStyle(Color.redFlare)
+            .foregroundStyle(Color(hex: "45B87C"))
             .opacity(isTextPrompFocused ? 1 : 0)
         }
       }
