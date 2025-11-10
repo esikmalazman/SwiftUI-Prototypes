@@ -3,7 +3,7 @@
 //  SuggestionsShimmer
 //
 //  Created by esikmalazman on 10/11/2025.
-// https://towardsdev.com/enhancing-ux-with-redaction-in-swiftui-skeleton-loading-data-protection-492f9b8e5d8c 
+// https://towardsdev.com/enhancing-ux-with-redaction-in-swiftui-skeleton-loading-data-protection-492f9b8e5d8c
 
 import SwiftUI
 
