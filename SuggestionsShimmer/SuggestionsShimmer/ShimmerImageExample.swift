@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ExampleShimmerImage: View {
+struct ShimmerImageExample: View {
   
   // 3. Animate offset across view depends on the state change.
   // In this example we start when screen appear.
@@ -71,5 +71,5 @@ struct ExampleShimmerImage: View {
 }
 
 #Preview {
-  ExampleShimmerImage()
+  ShimmerImageExample()
 }
