@@ -11,7 +11,7 @@ import SwiftUI
 struct SuggestionsShimmerApp: App {
   var body: some Scene {
     WindowGroup {
-      ShimmerImageExample()
+      ChatSuggestionsScreen()
     }
   }
 }
